@@ -1,0 +1,117 @@
+/* Cores: Preto (#000000), Cinza Escuro (#333333), Cinza Claro (#F5F5F5), Branco (#FFFFFF) */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5; /* Cinza Claro (Fundo principal) */
+    color: #333333; /* Cinza Escuro (Texto principal) */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000; /* Preto */
+    color: #FFFFFF; /* Branco */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.section {
+    background-color: #FFFFFF; /* Branco */
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.section h2 {
+    color: #000000; /* Preto */
+    border-bottom: 3px solid #333333; /* Linha de separação em Cinza Escuro */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.linguagens-lista {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.linguagens-lista li {
+    background-color: #E0E0E0; /* Cinza claro intermediário */
+    color: #000000; /* Preto */
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+.dica-item {
+    background-color: #333333; /* Cinza Escuro */
+    color: #FFFFFF; /* Branco */
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 5px solid #000000; /* Destaque em Preto */
+    border-radius: 4px;
+}
+
+/* Estilo para o Banco de Dados */
+.db-info .linguagens-lista li {
+    background-color: #000000; /* Preto para destacar DB */
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #000000; /* Preto */
+    color: #888888; /* Cinza */
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.8em;
+}
+
+/* Estilos para o exemplo de JS no Front-end */
+.js-example {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+}
+
+.js-example button {
+    background-color: #000000;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.js-example button:hover {
+    background-color: #333333;
+}
+
+/* Estilos para o exemplo de JS no Back-end */
+.js-backend-info pre {
+    background-color: #000000;
+    color: #F5F5F5;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
