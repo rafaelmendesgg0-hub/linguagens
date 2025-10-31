@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carreira com Desenvolvimento</title>
     <link rel="stylesheet" href="style.css/style.css">
-<style>
-  /* Cores: Preto (#000000), Cinza Escuro (#333333), Cinza Claro (#F5F5F5), Branco (#FFFFFF) */
 
 body {
     font-family: Arial, sans-serif;
